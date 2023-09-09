@@ -117,23 +117,19 @@ export default class MainSceneScript extends Laya.Script3D {
 
         SceneResManager.createSky(GameManager.instance.scene3d.getChildByName("node_sky") as Laya.Sprite3D,
             MyGameConfig.levelConfig[GameManager.instance.curLevel].skyName, () => {
-                let connectTipDialog = new ConnectTipDialog(() => {
-                    try {
-                        roleScript.createRoleModel(MyGameConfig.carConfig[DataManager.getUseCarId()], () => {
-                            if (this.mLoadedCallback) {
+                try {
+                    roleScript.createRoleModel(MyGameConfig.carConfig[DataManager.getUseCarId()], () => {
+                        if (this.mLoadedCallback) {
+                            this.mLoadedCallback(this.mScene);
+                        } else {
+                            Laya.timer.once(500, this, () => {
                                 this.mLoadedCallback(this.mScene);
-                            } else {
-                                Laya.timer.once(500, this, () => {
-                                    this.mLoadedCallback(this.mScene);
-                                });
-                            }
-                        });
-                    } finally {
+                            });
+                        }
+                    });
+                } finally {
 
-                    }
-                });
-                connectTipDialog.zOrder = 101;
-                Laya.stage.addChild(connectTipDialog);
+                }
             });
     }
 

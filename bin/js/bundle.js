@@ -607,7 +607,7 @@
     GameConfig.screenMode = "horizontal";
     GameConfig.alignV = "top";
     GameConfig.alignH = "left";
-    GameConfig.startScene = "game/CarShopDialog.scene";
+    GameConfig.startScene = "game/CommonTipDialog.scene";
     GameConfig.sceneRoot = "";
     GameConfig.debug = false;
     GameConfig.stat = false;
@@ -3842,29 +3842,10 @@
             return this.mInstance;
         }
         init() {
-            this.mWallet = new Laya.Browser.window.Wallet();
         }
         connect(callback) {
-            UiUtils.showLoading();
-            let loadingDialog = new LoadingResDialog();
-            loadingDialog.zOrder = MyGameConfig.ZORDER_101;
-            Laya.stage.addChild(loadingDialog);
-            this.mWallet.connect((res) => {
-                if (res.code === -1) {
-                    loadingDialog.removeSelf();
-                    let commonTipDialog = new CommonTipDialog(res.msg);
-                    commonTipDialog.zOrder = MyGameConfig.ZORDER_101;
-                    Laya.stage.addChild(commonTipDialog);
-                }
-                else {
-                    this.mAddress = res.data;
-                    loadingDialog.removeSelf();
-                    callback();
-                }
-            });
         }
         send() {
-            this.mWallet.send();
         }
         getAddress() {
             return this.mAddress;
@@ -6659,22 +6640,6 @@
         }
     }
 
-    class ConnectTipDialog extends ui.game.ConnectWalletDialogUI {
-        constructor(callback) {
-            super();
-            this.mCallback = callback;
-        }
-        onAwake() {
-            this.width = Laya.stage.width;
-            UiUtils.click(this.mBtnConnect, this, () => {
-                WalletUtils.getInstance().connect(() => {
-                    this.removeSelf();
-                    this.mCallback();
-                });
-            });
-        }
-    }
-
     class MainSceneScript extends Laya.Script3D {
         constructor() {
             super(...arguments);
@@ -6750,24 +6715,20 @@
             roleScript.init();
             GameManager.instance.roleScript = roleScript;
             SceneResManager.createSky(GameManager.instance.scene3d.getChildByName("node_sky"), MyGameConfig.levelConfig[GameManager.instance.curLevel].skyName, () => {
-                let connectTipDialog = new ConnectTipDialog(() => {
-                    try {
-                        roleScript.createRoleModel(MyGameConfig.carConfig[DataManager.getUseCarId()], () => {
-                            if (this.mLoadedCallback) {
+                try {
+                    roleScript.createRoleModel(MyGameConfig.carConfig[DataManager.getUseCarId()], () => {
+                        if (this.mLoadedCallback) {
+                            this.mLoadedCallback(this.mScene);
+                        }
+                        else {
+                            Laya.timer.once(500, this, () => {
                                 this.mLoadedCallback(this.mScene);
-                            }
-                            else {
-                                Laya.timer.once(500, this, () => {
-                                    this.mLoadedCallback(this.mScene);
-                                });
-                            }
-                        });
-                    }
-                    finally {
-                    }
-                });
-                connectTipDialog.zOrder = 101;
-                Laya.stage.addChild(connectTipDialog);
+                            });
+                        }
+                    });
+                }
+                finally {
+                }
             });
         }
         goNextIsland() {

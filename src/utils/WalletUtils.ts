@@ -20,32 +20,12 @@ export default class WalletUtils {
     }
 
     private init(): void {
-        this.mWallet = new Laya.Browser.window.Wallet();
     }
 
     public connect(callback: Function) {
-        UiUtils.showLoading();
-        let loadingDialog = new LoadingResDialog();
-        loadingDialog.zOrder = MyGameConfig.ZORDER_101;
-        Laya.stage.addChild(loadingDialog)
-
-        this.mWallet.connect((res) => {
-            if (res.code === -1) {
-                loadingDialog.removeSelf();
-                let commonTipDialog = new CommonTipDialog(res.msg);
-                commonTipDialog.zOrder = MyGameConfig.ZORDER_101;
-                Laya.stage.addChild(commonTipDialog);
-            } else {
-                this.mAddress = res.data;
-                loadingDialog.removeSelf();
-                callback();
-            }
-        });
-
     }
 
     public send() {
-        this.mWallet.send();
     }
 
     public getAddress(): string {

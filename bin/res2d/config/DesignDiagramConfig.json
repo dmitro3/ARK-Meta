@@ -1,0 +1,7 @@
+[
+    {"id":1,"name":"Roller Widening Design","imgName":"imgRoller.png","lockImgName":"imgRollerLock.png","time":10000,"rate":1,"goodsId":1,"des":"Roller Widening Design"},
+    {"id":2,"name":"Infinite Damage Design","imgName":"imgPower.png","lockImgName":"imgPowerLock.png","time":10000,"rate":1,"goodsId":2,"des":"Infinite Damage Design"},
+    {"id":3,"name":"Infinite Capacity Design","imgName":"imgCapaticy.png","lockImgName":"imgCapaticyLock.png","time":10000,"rate":1,"goodsId":3,"des":"Infinite Capacity Design"},
+    {"id":4,"name":"Explosive Design","imgName":"imgExplosive.png","lockImgName":"imgExplosiveLock.png","time":10000,"rate":1,"goodsId":4,"des":"Explosive Design"},
+    {"id":5,"name":"Metal Detector Design","imgName":"imgExploration.png","lockImgName":"imgExplorationLock.png","time":10000,"rate":1,"goodsId":5,"des":"Metal Detector Design"}
+    ]

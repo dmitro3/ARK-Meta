@@ -1,0 +1,18 @@
+{
+    "tank_shop": "TANK SHOP",
+    "equip": "EQUIP",
+    "ok": "OK",
+    "cancel": "CANCEL",
+    "factory": "FACTORY",
+    "buy": "BUY",
+    "laboratory": "LABORATORY",
+    "refresh": "REFRESH",
+    "send": "SEND",
+    "setting": "SETTING",
+    "music": "MUSIC",
+    "sound": "SOUND",
+    "vibrate": "VIBRATE",
+    "upgrade": "UPGRADE",
+    "control_tip": "swipe the screen to control the car",
+    "pc_control_tip": "drag the mouse or use the keyboard arrow keys or W.A.S.D keys to control the car"
+}

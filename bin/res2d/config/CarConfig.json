@@ -1,0 +1,18 @@
+[
+    {"id":1,"name":"Deflector","des":"Car","modelName":"Tank01_Deflector","imgName":"Tank01_Deflector.png","durable":60000},
+    {"id":2,"name":"LAV","des":"Car","modelName":"Tank02_LAV","imgName":"Tank02_LAV.png","durable":90000},
+    {"id":3,"name":"VIP","des":"Car","modelName":"Tank03_VIP","imgName":"Tank03_VIP.png","durable":120000},
+    {"id":4,"name":"Rescue","des":"Car","modelName":"Tank04_Rescue","imgName":"Tank04_Rescue.png","durable":150000},
+    {"id":5,"name":"Gatling","des":"Car","modelName":"Tank05_Gatling","imgName":"Tank05_Gatling.png","durable":180000},
+    {"id":6,"name":"APC","des":"Car","modelName":"Tank06_APC","imgName":"Tank06_APC.png","durable":210000},
+    {"id":7,"name":"AA","des":"Car","modelName":"Tank07_AA","imgName":"Tank07_AA.png","durable":240000},
+    {"id":8,"name":"Sonic","des":"Car","modelName":"Tank08_Sonic","imgName":"Tank08_Sonic.png","durable":270000},
+    {"id":9,"name":"Scout","des":"Car","modelName":"Tank09_Scout","imgName":"Tank09_Scout.png","durable":300000},
+    {"id":10,"name":"Drone","des":"Car","modelName":"Tank10_Drone","imgName":"Tank10_Drone.png","durable":330000},
+    {"id":11,"name":"MBT","des":"Car","modelName":"Tank11_MBT","imgName":"Tank11_MBT.png","durable":360000},
+    {"id":12,"name":"Anvanced-MBT","des":"Car","modelName":"Tank12_Anvanced-MBT","imgName":"Tank12_Anvanced-MBT.png","durable":390000},
+    {"id":13,"name":"Artillery","des":"Car","modelName":"Tank13_Artillery","imgName":"Tank13_Artillery.png","durable":420000},
+    {"id":14,"name":"Command","des":"Car","modelName":"Tank14_Command","imgName":"Tank14_Command.png","durable":450000},
+    {"id":15,"name":"Blaster","des":"Car","modelName":"Tank15_Blaster","imgName":"Tank15_Blaster.png","durable":480000},
+    {"id":16,"name":"Flamer","des":"Car","modelName":"Tank16_Flamer","imgName":"Tank16_Flamer.png","durable":510000}
+    ]

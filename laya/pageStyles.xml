@@ -1,0 +1,29 @@
+<page>
+   <item name="test/TestScene.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/MainViewDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/RockerView.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/UpgradeDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/MineCarUnlockTipDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/PassLevelTipDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/UnlockTipDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/FactoryDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/MapDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="laoding/LoadingDIalog.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/MapRefreshTime.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/PropTipDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/WrongClickDialog.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/GameResultDialog.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/ContainerView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="laoding/LoadingResDialog.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/CarShopDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/LaboratoryDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/CommonTipDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/NextChildLoadingDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/GetDesigndiagram.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/ToastView.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/GuideDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/CurrencyValueView.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/SettingDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+   <item name="game/PvpDialog.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="game/ConnectWalletDialog.scene" props="" ifExport="内嵌模式" aName=""/>
+</page>

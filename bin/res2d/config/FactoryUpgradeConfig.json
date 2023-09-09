@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"Roller Widening","imgName":"icPropRoller.png","range":1.95,"effectTime":30000,"costGold":100,"costCrystal":0},
+    {"id":2,"name":"InfiniteDamage","imgName":"icPropPower.png","range":9999999,"effectTime":30000,"costGold":100,"costCrystal":0},
+    {"id":3,"name":"Infinite Capacity","imgName":"icCapaticy.png","range":9999999,"effectTime":30000,"costGold":100,"costCrystal":0},
+    {"id":4,"name":"Explosive","imgName":"icExplosive.png","range":3,"effectTime":30000,"costGold":100,"costCrystal":0},
+    {"id":5,"name":"Metal Detector","imgName":"icExplosive.png","range":5,"effectTime":5000,"costGold":100,"costCrystal":5},
+    {"id":6,"name":"Aircraft","imgName":"icExplosive.png","range":1,"effectTime":30000,"costGold":10000,"costCrystal":5}
+    ]

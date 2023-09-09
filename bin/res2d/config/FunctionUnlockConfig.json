@@ -1,0 +1,53 @@
+{
+    "1": {
+        "id": 1,
+        "nodeName": "A_refinery",
+        "pointName": "node_sell",
+        "radius": 3
+    },
+    "2": {
+        "id": 2,
+        "nodeName": "A_repair_factory",
+        "pointName": "node_repair_station",
+        "radius": 2
+    },
+    "3": {
+        "id": 3,
+        "isNeedLock": true,
+        "unLockCostGold": 5000,
+        "unlockCostCrystal": 20,
+        "nodeName": "A_laboratory",
+        "pointName": "node_laboratory",
+        "radius": 2
+    },
+    "4": {
+        "id": 4,
+        "isNeedLock": true,
+        "unLockCostGold": 5000,
+        "unlockCostCrystal": 20,
+        "nodeName": "A_factory",
+        "pointName": "node_factory",
+        "radius": 2
+    },
+    "5": {
+        "id": 5,
+        "level": -1,
+        "nodeName": "A_garage",
+        "pointName": "node_garage",
+        "radius": 2
+    },
+    "7": {
+        "id": 7,
+        "level": -1,
+        "nodeName": "A_Pluto",
+        "pointName": "node_pluto",
+        "radius": -1
+    },
+    "8": {
+        "id": 8,
+        "level": -1,
+        "nodeName": "A_airport",
+        "pointName": "node_map",
+        "radius": 2.5
+    }
+}

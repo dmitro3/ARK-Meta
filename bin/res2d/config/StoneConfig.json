@@ -1,0 +1,12 @@
+[
+    {"type":1,"life":40,"stoneModel":"Energon_01.lh","stoneCurveModel":"Energon_a_01.lh","stoneFloorModel":"Energon_b_01.lh","stoneCatchModel":"Energon_c_01.lh","particleColor":"[92,92,92,255]"},
+    {"type":2,"life":110,"stoneModel":"Energon_02.lh","stoneCurveModel":"Energon_a_02.lh","stoneFloorModel":"Energon_b_02.lh","stoneCatchModel":"Energon_c_02.lh","particleColor":"[114,34,20,255]"},
+    {"type":3,"life":180,"stoneModel":"Energon_03.lh","stoneCurveModel":"Energon_a_03.lh","stoneFloorModel":"Energon_b_03.lh","stoneCatchModel":"Energon_c_03.lh","particleColor":"[28,109,30,255]"},
+    {"type":4,"life":250,"stoneModel":"Energon_04.lh","stoneCurveModel":"Energon_a_04.lh","stoneFloorModel":"Energon_b_04.lh","stoneCatchModel":"Energon_c_04.lh","particleColor":"[49,88,149,255]"},
+    {"type":5,"life":320,"stoneModel":"Energon_05.lh","stoneCurveModel":"Energon_a_05.lh","stoneFloorModel":"Energon_b_05.lh","stoneCatchModel":"Energon_c_05.lh","particleColor":"[126,84,47,255]"},
+    {"type":6,"life":390,"stoneModel":"Energon_06.lh","stoneCurveModel":"Energon_a_06.lh","stoneFloorModel":"Energon_b_06.lh","stoneCatchModel":"Energon_c_06.lh","particleColor":"[142,116,56,255]"},
+    {"type":7,"life":460,"stoneModel":"Energon_07.lh","stoneCurveModel":"Energon_a_07.lh","stoneFloorModel":"Energon_b_07.lh","stoneCatchModel":"Energon_c_07.lh","particleColor":"[153,37,161,255]"},
+    {"type":8,"life":530,"stoneModel":"Energon_08.lh","stoneCurveModel":"Energon_a_08.lh","stoneFloorModel":"Energon_b_08.lh","stoneCatchModel":"Energon_c_08.lh","particleColor":"[39,119,126,255]"},
+    {"type":9,"life":600,"stoneModel":"Energon_09.lh","stoneCurveModel":"Energon_a_09.lh","stoneFloorModel":"Energon_b_09.lh","stoneCatchModel":"Energon_c_09.lh","particleColor":"[65,29,111,255]"},
+    {"type":10,"life":670,"stoneModel":"Energon_10.lh","stoneCurveModel":"Energon_a_10.lh","stoneFloorModel":"Energon_b_10.lh","stoneCatchModel":"Energon_c_10.lh","particleColor":"[32,41,115,255]"}
+    ]

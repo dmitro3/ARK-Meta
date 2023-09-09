@@ -1,0 +1,18 @@
+<res>
+   <item name="factory/lbStored.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="factory/btnSell.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/btnClose.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="map/btnDelivery.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/spine" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/btnWrongClick.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="upgrade/bgUpgrageIcon.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="upgrade/bgUpgradePrice.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/bgIc.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/bgBtn1.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/bgProgressBar.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/bgProgress.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/imgUse.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="common/bgDialogTip.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/bgLoadingIsland.jpg" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=16,18,12,13" picType="0" scale="0"/>
+   <item name="common/bgMaskDialog.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=12,17,14,15" picType="0" scale="0"/>
+</res>

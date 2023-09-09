@@ -1,0 +1,16 @@
+{
+    "propsRefreshTime": 30000,
+    "propsUpgradeLevel": 3,
+    "stoneCoreComposeStone": 4,
+    "surveyTime": 90000,
+    "surveyRadius": 1.5,
+    "createCrystalRate": 1,
+    "rewardMax": 10,
+    "rewardTime": 300000,
+    "rewardPrice": 1000,
+    "crystalTime": 10000,
+    "catchCrystalCd": 1000,
+    "repairPrice": 2000,
+    "repairPunish": 0.5,
+    "pvpTime": 30
+}

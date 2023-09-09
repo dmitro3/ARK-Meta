@@ -1,0 +1,9 @@
+[
+    {"id":1,"configName":"Level1","modelName":"node_stage1.lh","skyName":"node_sky1.lh","imgName":"imgLevel1.png","model":1,"crystalNum":5,"costGold":0,"costCrystl":0,"costDurable":3200,"prizeGold":10000},
+    {"id":2,"configName":"Level2","modelName":"node_stage2.lh","skyName":"node_sky1.lh","imgName":"imgLevel2.png","model":1,"crystalNum":5,"costGold":20000,"costCrystl":10,"costDurable":6400,"prizeGold":20000},
+    {"id":3,"configName":"Level1","modelName":"node_stage7.lh","skyName":"node_sky1.lh","imgName":"imgLevel7.png","model":2,"crystalNum":10,"costGold":50000,"costCrystl":30,"costDurable":0,"prizeGold":30000},
+    {"id":4,"configName":"Level3","modelName":"node_stage3.lh","skyName":"node_sky2.lh","imgName":"imgLevel3.png","model":1,"crystalNum":5,"costGold":80000,"costCrystl":80,"costDurable":9600,"prizeGold":40000},
+    {"id":5,"configName":"Level4","modelName":"node_stage4.lh","skyName":"node_sky2.lh","imgName":"imgLevel4.png","model":1,"crystalNum":5,"costGold":120000,"costCrystl":150,"costDurable":12800,"prizeGold":50000},
+    {"id":6,"configName":"Level5","modelName":"node_stage5.lh","skyName":"node_sky3.lh","imgName":"imgLevel5.png","model":1,"crystalNum":5,"costGold":200000,"costCrystl":240,"costDurable":16000,"prizeGold":60000},
+    {"id":7,"configName":"Level6","modelName":"node_stage6.lh","skyName":"node_sky3.lh","imgName":"imgLevel6.png","model":1,"crystalNum":5,"costGold":350000,"costCrystl":350,"costDurable":19200,"prizeGold":70000}
+    ]

@@ -1,0 +1,18 @@
+[
+    {"level":0,"durableSpeed":300,"spikeCircleNum":1,"spikeCircleForce":10,"spikeNum":1,"spikeForce":10,"spikeSize":1,"spikeSizeForce":10,"truckSpeed":450,"truckCapacity":40,"rollerSize":1},
+    {"level":1,"durableSpeed":600,"spikeCircleNum":2,"spikeCircleForce":20,"spikeNum":2,"spikeForce":20,"spikeSize":1.06,"spikeSizeForce":20,"truckSpeed":465,"truckCapacity":90,"rollerSize":1.06},
+    {"level":2,"durableSpeed":900,"spikeCircleNum":3,"spikeCircleForce":30,"spikeNum":3,"spikeForce":30,"spikeSize":1.12,"spikeSizeForce":30,"truckSpeed":480,"truckCapacity":140,"rollerSize":1.12},
+    {"level":3,"durableSpeed":1200,"spikeCircleNum":4,"spikeCircleForce":40,"spikeNum":4,"spikeForce":40,"spikeSize":1.18,"spikeSizeForce":40,"truckSpeed":495,"truckCapacity":190,"rollerSize":1.18},
+    {"level":4,"durableSpeed":1500,"spikeCircleNum":5,"spikeCircleForce":50,"spikeNum":5,"spikeForce":50,"spikeSize":1.24,"spikeSizeForce":50,"truckSpeed":510,"truckCapacity":240,"rollerSize":1.24},
+    {"level":5,"durableSpeed":1800,"spikeCircleNum":6,"spikeCircleForce":60,"spikeNum":6,"spikeForce":60,"spikeSize":1.3,"spikeSizeForce":60,"truckSpeed":525,"truckCapacity":290,"rollerSize":1.3},
+    {"level":6,"durableSpeed":2100,"spikeCircleNum":7,"spikeCircleForce":70,"spikeNum":7,"spikeForce":70,"spikeSize":1.36,"spikeSizeForce":70,"truckSpeed":540,"truckCapacity":340,"rollerSize":1.36},
+    {"level":7,"durableSpeed":2400,"spikeCircleNum":8,"spikeCircleForce":80,"spikeNum":8,"spikeForce":80,"spikeSize":1.42,"spikeSizeForce":80,"truckSpeed":555,"truckCapacity":390,"rollerSize":1.42},
+    {"level":8,"durableSpeed":2700,"spikeCircleNum":9,"spikeCircleForce":90,"spikeNum":9,"spikeForce":90,"spikeSize":1.48,"spikeSizeForce":90,"truckSpeed":570,"truckCapacity":440,"rollerSize":1.48},
+    {"level":9,"durableSpeed":3000,"spikeCircleNum":10,"spikeCircleForce":100,"spikeNum":10,"spikeForce":100,"spikeSize":1.54,"spikeSizeForce":100,"truckSpeed":585,"truckCapacity":490,"rollerSize":1.54},
+    {"level":10,"durableSpeed":3300,"spikeCircleNum":11,"spikeCircleForce":110,"spikeNum":11,"spikeForce":110,"spikeSize":1.6,"spikeSizeForce":110,"truckSpeed":600,"truckCapacity":540,"rollerSize":1.6},
+    {"level":11,"durableSpeed":3600,"spikeCircleNum":12,"spikeCircleForce":120,"spikeNum":12,"spikeForce":120,"spikeSize":1.66,"spikeSizeForce":120,"truckSpeed":615,"truckCapacity":590,"rollerSize":1.66},
+    {"level":12,"durableSpeed":3900,"spikeCircleNum":13,"spikeCircleForce":130,"spikeNum":13,"spikeForce":130,"spikeSize":1.72,"spikeSizeForce":130,"truckSpeed":630,"truckCapacity":640,"rollerSize":1.72},
+    {"level":13,"durableSpeed":4200,"spikeCircleNum":14,"spikeCircleForce":140,"spikeNum":14,"spikeForce":140,"spikeSize":1.78,"spikeSizeForce":140,"truckSpeed":645,"truckCapacity":690,"rollerSize":1.78},
+    {"level":14,"durableSpeed":4500,"spikeCircleNum":15,"spikeCircleForce":150,"spikeNum":15,"spikeForce":150,"spikeSize":1.84,"spikeSizeForce":150,"truckSpeed":660,"truckCapacity":740,"rollerSize":1.84},
+    {"level":15,"durableSpeed":4800,"spikeCircleNum":16,"spikeCircleForce":160,"spikeNum":16,"spikeForce":160,"spikeSize":1.9,"spikeSizeForce":160,"truckSpeed":675,"truckCapacity":800,"rollerSize":1.9}
+    ]

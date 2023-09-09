@@ -1,0 +1,18 @@
+{
+    "tank_shop": "车库",
+    "equip": "装备",
+    "ok": "确定",
+    "cancel": "取消",
+    "factory": "工厂",
+    "buy": "购买",
+    "laboratory": "实验室",
+    "refresh": "刷新",
+    "send": "传送",
+    "setting": "设置",
+    "music": "音乐",
+    "sound": "音效",
+    "vibrate": "震动",
+    "upgrade": "升级",
+    "control_tip": "滑动屏幕控制车子",
+    "pc_control_tip": "拖动鼠标或者使用键盘的方向键或者W.A.S.D键操控车子"
+}

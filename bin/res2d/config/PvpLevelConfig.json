@@ -1,0 +1,5 @@
+[
+    {"id":1,"configName":"Level1","modelName":"node_stage1.lh","skyName":"node_sky1.lh"},
+    {"id":2,"configName":"Level2","modelName":"node_stage4.lh","skyName":"node_sky2.lh"},
+    {"id":3,"configName":"Level3","modelName":"node_stage6.lh","skyName":"node_sky3.lh"}
+    ]
